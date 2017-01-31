@@ -1,0 +1,10 @@
+const scrollFunction = () => {
+  const scrollPosition = document.body.scrollTop;
+  const frontPageHeight = document.getElementById('#splash').style.height;
+  if(scrollPosition > frontPageHeight){
+    
+  }
+  
+}
+
+const elem = document.getElementById('#splash').style.height;
